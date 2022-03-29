@@ -15,7 +15,7 @@ console.log("En 1937, un matemático alemán llamado Lothar Collatz formuló una
 
 while(true){
     contador = 0;
-    c0 = prompt(error + "Ingresa un numero por favor: \nEn el caso de finalizar el codigo escribir 'ESC'");
+    c0 = prompt(error + "Ingresa un numero por favor(todo numero decimal se redondeara para abajo): \nEn el caso de finalizar el codigo escribir 'ESC'");
 
     if(c0 == null || c0.toUpperCase() == "ESC"){
         break;
