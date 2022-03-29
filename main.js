@@ -17,9 +17,13 @@ while(true){
     contador = 0;
     c0 = prompt(error + "Ingresa un numero por favor(todo numero decimal se redondeara para abajo): \nEn el caso de finalizar el codigo escribir 'ESC'");
 
+    // El dato ingresado va a pasar por una prueba de si se presiono el boton Escape, o el boton Cancelar o si se escribio "ESC"(Sin importar mayusculas o minusculas) para dejar de ejecutar el codigo
+
     if(c0 == null || c0.toUpperCase() == "ESC"){
         break;
     }
+
+    // Luego de la verificacion se hace una prueba de si el dato ingresado es valido, tanto si es texto, como si son numeros negativos
 
     c0 = parseInt(c0);
 
